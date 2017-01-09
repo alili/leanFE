@@ -1,55 +1,54 @@
-  .container{
-    width: 1180px;
-    margin:40px auto 0px;
-    overflow: auto;
-  }
-  .group{
+header{
+    text-align: center;
+    margin: 30px 0;
+}
+header h1{
+    color:#57A8C1;
+    font-size: 25px;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.block{
     width: 380px;
-    box-sizing: border-box;
+    height: 552px;
+    background-color: #adadad;
+    margin: 10px;
     float: left;
-    margin:0px 0px 20px 10px;
-    text-align: center;
-  }
-  .group img{
-    width: 100%;
-    margin-bottom: 20px
-  }
-  .group p{
-
-    text-align: left;
-    margin:30px;
-  }
-  .headpic{
-    margin:30px auto 0px ;
-    text-align: center;
-  }
-  .intro{
-    margin:40px auto 0px;
-    text-align: center;
-  }
-  .tcwhite{
-    color: #ffffff;
+}
+.block img{
+    width: 380px;
+    height: 270px;
+}
+.block .inner{
+    padding: 20px;
     position: relative;
-  }
-  .tcblack{
-    color: #000;
-  }
-  .headborder01 h2{
     text-align: center;
-    margin: 0px 8px;
-  }
-  .headborder01{
-    width:auto;
-    display:inline-block;
-    height:33px;
-    z-index: 999;
-    background: #9fc5e8;
-  }
-  .line{
-    border-top: 3px solid white;
-    height:3px;
-    position: absolute;
-    top: 18px;
-    width: 80%;
-    left: 10%;
-  }
+}
+.block h2{
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    z-index: 99;
+    background-color: #adadad;
+    padding: 0 10px;
+    margin: 0;
+    top:12px;
+}
+.date{
+    display: block;
+    margin: 0 auto;
+    color: #fff;
+}
+.block .line{
+    display: block;
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+.content{
+    text-align: left;
+    color: #fff;
+}
